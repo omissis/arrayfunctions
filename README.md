@@ -11,14 +11,14 @@ use function Omissis\ArrayFunctions\set as array_set;
 // $key can be a string or an array representing the path to the key you are interested into.
 ArrayFunctions\get($array, $key, $default);
 
-// Alternatively us the function alias
+// Alternatively, use the function alias
 array_get($array, $key, $default);
 
 // Set the value of a key, returning the previous value if it was set.
 // $key can be a string or an array representing the path to the key you are interested into.
 ArrayFunctions\set($array, $key, $value)
 
-// Alternatively us the function alias
+// Alternatively, use the function alias
 array_set($array, $key, $value);
 ```
 
